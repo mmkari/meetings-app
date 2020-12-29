@@ -1,0 +1,64 @@
+[
+  {
+    "Subject": "Monthly Meeting",
+    "Organizer": "Josef Schrödinger",
+    "StartTime": "2020-12-07T11:30:00",
+    "EndTime": "2020-12-07T12:30:00",
+    "Participants": [
+      {
+        "Name": "Jay Jones",
+        "Title": "Designer"
+      },
+      {
+        "Name": "John White",
+        "Title": "Architect"
+      },
+      {
+        "Name": "Maria Romano",
+        "Title": "CTO"
+      }
+    ]
+  },
+  {
+    "Subject": "Design workshop",
+    "Organizer": "Joe Graham",
+    "StartTime": "2020-12-07T12:40:00",
+    "EndTime": "2020-12-07T13:30:00",
+    "Participants": null
+  },
+  {
+    "Subject": "Customer meeting XY",
+    "Organizer": "Joe Graham",
+    "StartTime": "2020-12-07T15:30:00",
+    "EndTime": "2020-12-07T16:15:00",
+    "Participants": null
+  },
+  {
+    "Subject": "Interviews",
+    "Organizer": "HR",
+    "StartTime": "2020-12-07T16:30:00",
+    "EndTime": "2020-12-07T17:00:00",
+    "Participants": null
+  },
+  {
+    "Subject": "Interviews",
+    "Organizer": "HR",
+    "StartTime": "2020-12-07T17:00:00",
+    "EndTime": "2020-12-07T17:30:00",
+    "Participants": null
+  },
+  {
+    "Subject": "Interviews",
+    "Organizer": "HR",
+    "StartTime": "2020-12-07T19:30:00",
+    "EndTime": "2020-12-07T21:00:00",
+    "Participants": null
+  },
+  {
+    "Subject": "Interviews",
+    "Organizer": "HR",
+    "StartTime": "2020-12-07T23:30:00",
+    "EndTime": "2020-12-07T23:59:00",
+    "Participants": null
+  }
+]

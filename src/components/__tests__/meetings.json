@@ -1,0 +1,23 @@
+[
+  {
+    "Subject": "TESTI KOKOUS 1",
+    "Organizer": "Miko",
+    "StartTime": "2020-12-05T16:08:00",
+    "EndTime": "2020-12-05T18:49:00",
+    "Description": "\"But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual tea\""
+  },
+  {
+    "Subject": "TESTI KOKOUS 2",
+    "Organizer": "Miko",
+    "StartTime": "2020-12-05T19:02:00",
+    "EndTime": "2020-12-05T19:49:00",
+    "Description": "\"But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual tea\""
+  },
+  {
+    "Subject": "TESTI KOKOUS 3",
+    "Organizer": "Miko",
+    "StartTime": "2020-12-05T20:08:00",
+    "EndTime": "2020-12-05T21:49:00",
+    "Description": "\"But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual tea\""
+  }
+]
