@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/meetings-app/static/css/main.11557b0d.chunk.css",
+    "main.js": "/meetings-app/static/js/main.b00f8f8a.chunk.js",
+    "main.js.map": "/meetings-app/static/js/main.b00f8f8a.chunk.js.map",
+    "runtime-main.js": "/meetings-app/static/js/runtime-main.f4ae8bd2.js",
+    "runtime-main.js.map": "/meetings-app/static/js/runtime-main.f4ae8bd2.js.map",
+    "static/js/2.af27e7ba.chunk.js": "/meetings-app/static/js/2.af27e7ba.chunk.js",
+    "static/js/2.af27e7ba.chunk.js.map": "/meetings-app/static/js/2.af27e7ba.chunk.js.map",
+    "static/js/3.f56a17e8.chunk.js": "/meetings-app/static/js/3.f56a17e8.chunk.js",
+    "static/js/3.f56a17e8.chunk.js.map": "/meetings-app/static/js/3.f56a17e8.chunk.js.map",
+    "index.html": "/meetings-app/index.html",
+    "static/css/main.11557b0d.chunk.css.map": "/meetings-app/static/css/main.11557b0d.chunk.css.map",
+    "static/js/2.af27e7ba.chunk.js.LICENSE.txt": "/meetings-app/static/js/2.af27e7ba.chunk.js.LICENSE.txt",
+    "static/media/bg-image.22a3092f.jpg": "/meetings-app/static/media/bg-image.22a3092f.jpg",
+    "static/media/calendar.1b7856cd.svg": "/meetings-app/static/media/calendar.1b7856cd.svg",
+    "static/media/collapse.392d8421.svg": "/meetings-app/static/media/collapse.392d8421.svg",
+    "static/media/description.c964d8ff.svg": "/meetings-app/static/media/description.c964d8ff.svg",
+    "static/media/expand.2f9424fc.svg": "/meetings-app/static/media/expand.2f9424fc.svg",
+    "static/media/person.90db82f7.svg": "/meetings-app/static/media/person.90db82f7.svg",
+    "static/media/time.efb45c5e.svg": "/meetings-app/static/media/time.efb45c5e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4ae8bd2.js",
+    "static/js/2.af27e7ba.chunk.js",
+    "static/css/main.11557b0d.chunk.css",
+    "static/js/main.b00f8f8a.chunk.js"
+  ]
+}
