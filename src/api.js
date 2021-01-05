@@ -1,11 +1,16 @@
 import { getCurrentDate } from "./components/helpers";
+
+const padZeroes = (str = "", len = 1) => ("0".repeat(len) + str).slice(-len);
+
 // modify dates in sample meeting data so they show as today's meetings
 const moveDates = (json) => {
   // take current date
   const { day, month, year } = getCurrentDate();
 
   const moveDate = (iso) => {
-    return `${year}-${month}-${day}T${iso.split("T")[1]}`;
+    return `${year}-${padZeroes(month, 2)}-${padZeroes(day, 2)}T${
+      iso.split("T")[1]
+    }`;
   };
 
   // move meetings to current day
