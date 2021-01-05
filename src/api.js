@@ -25,7 +25,7 @@ const fetchMeetingsData = () => {
   // assuming received content is ISO-8859-1 encoded, need to decode to utf-8
   let data;
   try {
-    data = fetch("meetings.json")
+    data = fetch(process.env.PUBLIC_URL + "/meetings.json")
       .then((response) => response.arrayBuffer())
       .then((buffer) => {
         let decoder = new TextDecoder("iso-8859-1");
@@ -33,7 +33,7 @@ const fetchMeetingsData = () => {
         return moveDates(JSON.parse(text));
       })
       .catch((err) => {
-        return null;
+        return [];
       });
   } catch {
     data = null;
