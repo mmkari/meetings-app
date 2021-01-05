@@ -18,17 +18,17 @@ const DetailedView = ({ className, meetings }) => {
 
   return (
     <div className={className}>
-      {openedMeeting !== null ? (
+      {openedMeeting !== null && (
         <DetailedViewOpened
           meeting={meetings[openedMeeting]}
           closeOpenedMeeting={closeOpenedMeeting}
         />
-      ) : (
-        <DetailedViewTimetable
-          meetings={meetings}
-          onMeetingClick={onMeetingClick}
-        />
       )}
+      <DetailedViewTimetable
+        hide={openedMeeting !== null}
+        meetings={meetings}
+        onMeetingClick={onMeetingClick}
+      />
     </div>
   );
 };

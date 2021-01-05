@@ -46,6 +46,7 @@ const DetailedViewTimetable = ({ className, meetings, onMeetingClick }) => {
 export default styled(DetailedViewTimetable).attrs({
   className: "DetailedViewTimetable",
 })`
+  visibility: ${({ hide }) => (hide ? "hidden" : "visible")};
   .DetailedViewTimetable-content {
     flex-grow: 1;
     position: relative;
