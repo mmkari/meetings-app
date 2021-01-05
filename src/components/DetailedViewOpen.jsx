@@ -25,7 +25,7 @@ const DetailedViewOpened = ({ className, meeting, closeOpenedMeeting }) => {
       <DetailItem iconType="calendar" label={getDateString(start)}></DetailItem>
       <DetailItem
         iconType="time"
-        label={`${getTimeString(start, ".")} to ${getTimeString(end, ".")}`}
+        label={`${getTimeString(start)} to ${getTimeString(end)}`}
       ></DetailItem>
       <DetailItem iconType="person" label={"PARTICIPANTS"}>
         {participants && participants.length && (
